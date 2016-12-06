@@ -1,15 +1,36 @@
 <!doctype html>
 <html lang="en-us">
   <head>
+
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Dashing Dots</title>
+    <title>Dashing Dots</title>
     <link rel="stylesheet" href="TemplateData/style.css">
-    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <link rel='icon' href='./images/PlayerGreen.png' type='image/png'>
+
+    <!-- Twitter Card -->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://isaacmillercodes.tech/dashing-dots/images/DashingDotsScreenshot.png">
+    <meta name="twitter:site" content="@imillercodes">
+    <meta name="twitter:title" content="Dashing Dots">
+    <meta name="twitter:description" content="An addictive 2D arcade puzzler built by Isaac Miller using Unity and C#.">
+
+    <!-- Facebook Card -->
+
+    <meta property="fb:app_id" content="612763175574838" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://isaacmillercodes.tech/dashing-dots" />
+    <meta property="og:title" content="Dashing Dots" />
+    <meta property="og:description"
+    content="An addictive 2D arcade puzzler built by Isaac Miller using Unity and C#." />
+    <meta property="og:image" content="https://isaacmillercodes.tech/dashing-dots/images/DashingDotsScreenshot.png" />
+    <meta property="og:site_name" content="Dashing Dots" />
+
     <script src="TemplateData/UnityProgress.js"></script>
   </head>
   <body class="template">
-    <p class="header"><span>Unity WebGL Player | </span>Dashing Dots</p>
+    <p class="header">Dashing Dots</p>
     <div class="template-wrap clear">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
       <br>
@@ -26,7 +47,7 @@
     dataUrl: "Release/DeployedBuild.data",
     codeUrl: "Release/DeployedBuild.js",
     memUrl: "Release/DeployedBuild.mem",
-    
+
   };
 </script>
 <script src="Release/UnityLoader.js"></script>
