@@ -6,6 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Dashing Dots</title>
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="main.css">
     <link rel='icon' href='./images/PlayerGreen.png' type='image/png'>
 
     <!-- Twitter Card -->
@@ -29,16 +30,29 @@
 
     <script src="TemplateData/UnityProgress.js"></script>
   </head>
-  <body class="template">
-    <p class="header">Dashing Dots</p>
-    <div class="template-wrap clear">
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
-      <br>
-      <div class="logo"></div>
-      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
-      <div class="title">Dashing Dots</div>
+  <body>
+    <div class="instructions">
+      <h3>Instructions:</h3>
+
+      <p>The goal of Dashing Dots is get the Player Dot to the Token of the same color.</p>
+      <!-- <br> -->
+      <p>You can control all the Player Dots to solve each board in the least amount of moves possible.</p>
+
+      <p>Click on a Player Dot to activate them for movement, then move them with the arrow keys or WASD.</p>
+
     </div>
-    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    <div class="template">
+      <p class="header">Dashing Dots</p>
+      <div class="template-wrap clear">
+        <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+        <br>
+        <div class="logo"></div>
+        <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+        <div class="title">Dashing Dots</div>
+      </div>
+      <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    </div>
+
     <script type='text/javascript'>
   var Module = {
     TOTAL_MEMORY: 268435456,
